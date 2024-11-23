@@ -3358,7 +3358,9 @@ body.is-touch .spotlight {
 }
 
 .wrapper.style2 {
-  background: #e44c65;
+  /* background: #e44c65; */
+  /* background: #C62E2E; */
+    background: #243642;
 }
 
 .wrapper.style2 input[type="text"]:focus,
@@ -3733,7 +3735,7 @@ body.is-touch #banner {
 /* Footer */
 
 #footer {
-  background: #272833;
+  background: #272833; /*C62E2E*/
   padding: 6em 0;
   text-align: center;
 }
@@ -4353,13 +4355,13 @@ body.is-touch #banner {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
+  width: 180px;
   /* Adjust size if needed */
 }
 
 img.member {
   width: 120px;
-  height: 120px;
+  height: 150px;
   border-radius: 50%;
   /* Makes the image circular */
   object-fit: cover;
@@ -4368,7 +4370,7 @@ img.member {
   /* Optional for a nice effect */
 }
 
-p.member {
+ .member p {
   margin-top: 10px;
   font-size: 1rem;
   font-weight: bold;
